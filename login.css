@@ -1,0 +1,71 @@
+.brown-div{
+    background-color: brown;
+
+}
+.brown-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    border-bottom: 10px solid orangered;
+}
+ul{
+    display: flex;
+    list-style: none;
+
+
+}
+li{
+    padding-right: 20px;
+    color:white;
+    font-size: 20px;
+}
+.button1{
+    background-color: red;
+    color: white;
+    border: 0;
+    padding: 13px;
+    font-size: 15px;
+    border-radius: 20px
+
+
+}
+.form{
+    background-color: rgb(31,27,27);
+    padding: 70px;
+    text-indent: none;
+    text-align: center;
+}
+input[type=password]{
+    width: 300px;
+    height: 15px;
+    border-radius: 5px;
+
+}
+h4{
+    color: white;
+}
+h5{
+    color: red;
+}
+.button2{
+    background-color: red;
+    color: white;
+    padding: 13px;
+    font-size: 15px;
+    border-radius: 20px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    padding-right: 20px;
+    color: white;
+    font-size: 20px;
+    text-align: right;
+}
+.bottom{
+    background-color: black;
+    padding: 10px;
+}
+   
