@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eee; 
+    background-image: url(fweeter.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 0;
+    margin: 0;
+}
+
+#twitter-container{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+/*The left side starts here------------------------*/
+
+.left_info{
+   
+    position: absolute;
+    top: 400px;
+    left: 400px;
+}
+
+.left_info p {
+    color: white; /*#ffffff, fff*/
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/*The left side Ends here------------------------*/
+
+
+/*The Right side starts here------------------------*/
+
+.right-container{
+    background-image: url(yeeter.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    width: 600px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+
+}
+
+.top_right{
+    position: absolute;
+    right: 70px;
+    top: 0;
+    background-color: inherit;
+    padding: 20px;
+}
+
+.top_right a{
+    position: absolute;
+    top: 75px;
+    right: 140px;
+
+}
+
+
+.right_info{
+    position: absolute;
+    top: 200px;
+    right: 100px;
+
+}
+
+.right_info img {
+    width: 50px;
+    height: 40px;
+}
+
+.btn_login{
+
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+    padding: 7px 50px;
+    width: 200px;
+    border-radius: 25px;
+    margin-left: 140px;
+
+}
+
+.topbtn{
+    padding: 14px;
+    color: blue;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: arial;
+    outline: none;
+    border: 1px solid blue;
+    margin-left: 10px;
+
+}
+
+.btn_signup{
+
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+    margin-top: 20px;
+    padding: 7px 50px;
+    width: 200px;
+    border-radius: 25px;
+    margin-left: 140px;
+
+}
+
+
+input{
+    padding: 7px;
+}
+
+/*The Right side Ends here------------------------*/
+
+ul{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
